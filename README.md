@@ -2,7 +2,7 @@
 
  `fabric-sdk-go`的使用文档较少，这是使用`fabric-sdk-go`的一个案例。
 
-本案例使用的`fabric`版本为`fabric 1.4.8`，单机部署的联盟链结构为：3`orderer`+2`org1`+2`org2`，`orderer`节点采用`Raft`共识。
+本案例使用的`fabric`版本为`fabric 1.4.8`，单机部署的联盟链结构为：3`orderer`+2`peer(org1)`+2`peer(org2)`，`orderer`节点采用`Raft`共识。
 
 多机部署参考：[Hyperledger Fabric Raft排序多机部署](http://blog.hubwiz.com/2019/12/24/fabric-raft-multi-host/)
 
